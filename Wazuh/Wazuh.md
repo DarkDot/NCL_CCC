@@ -6,7 +6,7 @@
 dell-r720xd-idrac | PowerEdge R720xd iDRAC | dell-r720xd-idrac | 192.168.2.40 | 2x Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz | 384.00 GB 24x DDR-3	16.00 GB Dual Rank 1333 MHz |2x WDC WDS500G2B0A 465.25 GBSSD  | 3x WDC WUH721414AL 13038.50 GB sata | 2x WDC WD140EFGX 68 13038.50 GB sata
 PVE01 | ProxmoxVE 8.0.4 | https://pve01.bts4.com:8006 | 192.168.2.42 | bare metal on DELL-R720XD | mirrored on ssd
 TRUENAS01 | TrueNAS-SCALE-22.12.3.3 | https://truenas01.bts4.com/ui/sharing | 192.168.2.60 | hosted on PVE01 | 5x 14tb hdd passthrough | 
-hoori |  Ubuntu 22.04.2 LTS | hoori.bts4.com | 192.168.2.41 | Intel(R) Core(TM) i3-10100T CPU | 32gb ddr4 3200 | Samsung SSD 970 EVO Plus 1TB | maas controller | searxng
+hoori (potato)|  Ubuntu 22.04.2 LTS | hoori.bts4.com | 192.168.2.41 | Intel(R) Core(TM) i3-10100T CPU | 32gb ddr4 3200 | Samsung SSD 970 EVO Plus 1TB | maas controller | searxng
 Hachiman | Windows 10 | hachiman.bts4.com | 192.168.2.43 | 2x Intel(R) Xeon(R) CPU E5-2687W 0 @ 3.10GHz | 8x8gb 1333 ddr3 
 
 
@@ -160,3 +160,8 @@ and now vlc is managed by choco
 
 ![19](image-6.png)
 
+As far as the linux boxes go, they aren't showing as having any vulnerabilities. I have no idea if this is a error or that my systems are up to date and correctly patched.
+
+## Takeaway
+
+Wazuh looks to have a lot of capabilities but isn't set up with a lot of defaults. Theres a bunch of configuration to be done and the menues aren't that well layed out. I'll need to spend more time researching how to configure wazuh for my needs.
