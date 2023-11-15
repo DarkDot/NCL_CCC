@@ -165,3 +165,5 @@ As far as the linux boxes go, they aren't showing as having any vulnerabilities.
 ## Takeaway
 
 Wazuh looks to have a lot of capabilities but isn't set up with a lot of defaults. Theres a bunch of configuration to be done and the menues aren't that well layed out. I'll need to spend more time researching how to configure wazuh for my needs.
+
+Having the current vulnerabilities listed was useful on windows as common AV and defender doesn't provide info that apps are out of date and need updated. Being able to get that info was helpful as it allowed me to find what programs weren't installed through my package manager.
